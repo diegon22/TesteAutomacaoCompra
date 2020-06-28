@@ -6,7 +6,7 @@ Site testado: http://automationpractice.com/index.php <br/> <br/>
 
 Softwares necessários: Intellij IDEA; Google Chrome e ChromeDrive; <br/>
 
-Caso de teste: Realizar uma compra com sucesso <br/>
+<b>Caso de teste: Realizar uma compra com sucesso</b> <br/>
 
 1.Acessar o site: http://automationpractice.com/index.php <br/>
 2.Escolha um produto qualquer na loja. <br/>
@@ -20,7 +20,7 @@ Caso de teste: Realizar uma compra com sucesso <br/>
 10.Selecione um método de pagamento e prossiga. <br/>
 11.Confirme a compra e valide se foi finalizada com sucesso. <br/> <br/>
 
-Executando o script - Passo a Passo <br/>
+<b>Executando o script - Passo a Passo</b> <br/>
 Baixe e descompacte o projeto; <br/>
 Acesse o Intellij IDEA, abra o projeto e após carregar, vá em src/test/java; <br/>
 Execute o Compras.Java; <br/>
