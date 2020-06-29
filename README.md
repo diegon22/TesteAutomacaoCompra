@@ -22,6 +22,6 @@ Softwares necessários: Intellij IDEA; Google Chrome e ChromeDrive; <br/>
 
 <h4> Executando o script - Passo a Passo </h4>
 Baixe e descompacte o projeto; <br/>
-Acesse o Intellij IDEA, abra o projeto e após carregar, vá em src/test/java; <br/>
-Execute o Compras.Java; <br/>
+Acesse o Intellij IDEA, abra o projeto e após carregar, vá em src/test/java/runner; <br/>
+Execute o Runner.java; <br/>
 O script ira executar o teste, irá aparecer que o teste foi concluído.
