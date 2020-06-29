@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="43.965358">
+<testcase classname="Login" name="Executar login com credenciais validas" time="43.965358">
+<system-out><![CDATA[Dado eu acesso a url "http://automationpractice.com/index.php"..............passed
+Quando eu escolher um produto...............................................passed
+Entao sera colocado no carrinho.............................................passed
+E vou confirmar que esta no carrinho........................................passed
+E vou criar uma conta.......................................................passed
+E vou cadastrar meus dados..................................................passed
+E vou confirmar meu endereco................................................passed
+E vou aceitar os termos.....................................................passed
+E escolher a forma de pagamento.............................................passed
+E vou confirmar o pagamento.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,171 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13987929600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.init()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Executar login com credenciais validas",
+        "description": "",
+        "id": "login;executar-login-com-credenciais-validas",
+        "after": [
+          {
+            "result": {
+              "duration": 85300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5834208700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu acesso a url \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ComprarSteps.euAcessoAUrl(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3797209800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu escolher um produto",
+            "match": {
+              "location": "ComprarSteps.euEscolherUmProduto()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 7236794700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sera colocado no carrinho",
+            "match": {
+              "location": "ComprarSteps.seraColocadoNoCarrinho()"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 1945805900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "vou confirmar que esta no carrinho",
+            "match": {
+              "location": "ComprarSteps.vouConfirmarQueEstaNoCarrinho()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 439221300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "vou criar uma conta",
+            "match": {
+              "location": "ComprarSteps.vouCriarUmaConta()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5677316200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "vou cadastrar meus dados",
+            "match": {
+              "location": "ComprarSteps.vouCadastrarMeusDados()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1188903800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vou confirmar meu endereco",
+            "match": {
+              "location": "ComprarSteps.vouConfirmarMeuEndereco()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1139520500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "vou aceitar os termos",
+            "match": {
+              "location": "ComprarSteps.vouAceitarOsTermos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 916610900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "escolher a forma de pagamento",
+            "match": {
+              "location": "ComprarSteps.escolherAFormaDePagamento()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1778123700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "vou confirmar o pagamento",
+            "match": {
+              "location": "ComprarSteps.vouConfirmarOPagamento()"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  Eu como cliente gostaria de acessar o sistema via login somente com credenciais validas",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/Comprar.feature",
+    "tags": []
+  }
+]
