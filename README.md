@@ -20,8 +20,11 @@ Softwares necessários: Intellij IDEA; Google Chrome e ChromeDrive; <br/>
 11.Confirme a compra e valide se foi finalizada com sucesso. <br/> <br/>
 
 <h4> Executando o script - Passo a Passo </h4>
-Baixe e descompacte o projeto; <br/>
-Acesse o Intellij IDEA, abra o projeto e após carregar, vá em src/test/java/runner; <br/>
-Execute o Runner.java; <br/> 
+<ul>
+  <li> Baixe e descompacte o projeto; </li>
+  <li> Acesse o Intellij IDEA, abra o projeto e após carregar, vá em src/test/java/runner; </li>
+  <li> Execute o Runner.java; </li>
+</ul> 
+<br /> 
 O script ira executar o teste e após isso a própria IDEA vai alertar que o teste foi concluído com êxito. Caso negativo, irá captar a exceção na console. <br />
 <strong> IMPORTANTE: Para mais de uma execução, é necessário que altere o valor do e-mail enviado por sendKeys em "src/main/java/pages/CriarConta.java", uma vez que a intenção é que seja executado somente uma vez e para cadastrar o usuário, o e-mail deve ser único. </strong>
