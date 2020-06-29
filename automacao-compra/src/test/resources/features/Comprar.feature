@@ -1,9 +1,9 @@
 # language: pt
 # charset: UTF-8
 
-Funcionalidade: Login
-  Eu como cliente gostaria de acessar o sistema via login somente com credenciais validas
-
+Funcionalidade: Comprar
+  Eu como cliente gostaria de realizar uma compra com sucesso
+  
   Cenario: Executar login com credenciais validas
     Dado eu acesso a url "http://automationpractice.com/index.php"
     Quando eu escolher um produto
