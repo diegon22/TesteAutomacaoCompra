@@ -12,7 +12,7 @@ public class CriarConta {
     }
 
     public void informarEmail() {
-        driver.findElement(inputEmail).sendKeys("dik2202@teste.com");
+        driver.findElement(inputEmail).sendKeys("di272s202@teste.com");
         driver.findElement(btnCadastrar).click();
     }
 }
