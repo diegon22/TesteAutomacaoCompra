@@ -10,6 +10,7 @@ Softwares necessários: Intellij IDEA; Google Chrome e ChromeDrive; <br/>
 <ol>
   <li>Acessar o site: http://automationpractice.com/index.php </li>
   <li>Escolha um produto qualquer na loja</li>
+  <li>Adicione o produto escolhido ao carrinho</li>
   <li>Prossiga para o checkout</li>
   <li>Valide se o produto foi corretamente adicionado ao carrinho e prossiga caso esteja tudo certo</li>
   <li>Realize o cadastro do cliente preenchendo todos os campos obrigatórios dos formulários</li>
