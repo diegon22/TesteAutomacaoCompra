@@ -1,7 +1,7 @@
 <h1>Teste de Automação (Compras) </h1>
 
 <h3>Site testado: http://automationpractice.com/index.php </h3>
-<h4> Aplicando com os conhecimentos de Cucumber e Page Object </h4> <br /> 
+<h4> Aplicado com conhecimentos de Selenium, Cucumber e Page Object </h4> <br /> 
 
 Softwares necessários: Intellij IDEA; Google Chrome e ChromeDrive; <br/>
 
@@ -22,5 +22,6 @@ Softwares necessários: Intellij IDEA; Google Chrome e ChromeDrive; <br/>
 <h4> Executando o script - Passo a Passo </h4>
 Baixe e descompacte o projeto; <br/>
 Acesse o Intellij IDEA, abra o projeto e após carregar, vá em src/test/java/runner; <br/>
-Execute o Runner.java; <br/>
-O script ira executar o teste, irá aparecer que o teste foi concluído.
+Execute o Runner.java; <br/> 
+O script ira executar o teste e após isso a própria IDEA vai alertar que o teste foi concluído com êxito. Caso negativo, irá captar a exceção na console. <br />
+<strong> IMPORTANTE: Para mais de uma execução, é necessário que altere o valor do e-mail enviado por sendKeys em "src/main/java/pages/CriarConta.java", uma vez que a intenção é que seja executado somente uma vez e para cadastrar o usuário, o e-mail deve ser único. </strong>
