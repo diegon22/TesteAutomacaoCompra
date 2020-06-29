@@ -9,7 +9,7 @@ public class CriarConta extends DriverManager {
     private By btnCadastrar = By.xpath("//*[@id='SubmitCreate']/span");
 
     public void informarEmail() {
-        driver.findElement(inputEmail).sendKeys("di1246s202@teste.com");
+        driver.findElement(inputEmail).sendKeys("diegocampos2202@teste.com");
         driver.findElement(btnCadastrar).click();
     }
 }
