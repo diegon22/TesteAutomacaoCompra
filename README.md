@@ -1,12 +1,12 @@
 # TesteAutomacaoCompra
 
-Teste de Automação (Compras) <br/>
-NÃO ESTÁ FUNCIONAL <br/>
-Site testado: http://automationpractice.com/index.php <br/> <br/>
+<h2>Teste de Automação (Compras) </h2>
+<h3>Site testado: http://automationpractice.com/index.php </h3>
+<h4> Aplicando com os conhecimentos de Cucumber e Page Object </h4> <br /> 
 
 Softwares necessários: Intellij IDEA; Google Chrome e ChromeDrive; <br/>
 
-<b>Caso de teste: Realizar uma compra com sucesso</b> <br/>
+<h4> Caso de teste: Realizar uma compra com sucesso </h4>
 
 1.Acessar o site: http://automationpractice.com/index.php <br/>
 2.Escolha um produto qualquer na loja. <br/>
@@ -20,8 +20,8 @@ Softwares necessários: Intellij IDEA; Google Chrome e ChromeDrive; <br/>
 10.Selecione um método de pagamento e prossiga. <br/>
 11.Confirme a compra e valide se foi finalizada com sucesso. <br/> <br/>
 
-<b>Executando o script - Passo a Passo</b> <br/>
+<h4> Executando o script - Passo a Passo </h4>
 Baixe e descompacte o projeto; <br/>
 Acesse o Intellij IDEA, abra o projeto e após carregar, vá em src/test/java; <br/>
 Execute o Compras.Java; <br/>
-O script ira executar o teste, mas NÃO ESTÁ FUNCIONAL e só irá aparecer que o teste foi concluído com erros (ele para em "Add to cart")
+O script ira executar o teste, irá aparecer que o teste foi concluído.
