@@ -1,6 +1,5 @@
-# TesteAutomacaoCompra
+<h1>Teste de Automação (Compras) </h1>
 
-<h2>Teste de Automação (Compras) </h2>
 <h3>Site testado: http://automationpractice.com/index.php </h3>
 <h4> Aplicando com os conhecimentos de Cucumber e Page Object </h4> <br /> 
 
