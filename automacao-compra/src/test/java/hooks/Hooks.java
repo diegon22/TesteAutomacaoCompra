@@ -17,6 +17,6 @@ public class Hooks extends DriverManager {
 
     @After
     public void end(Scenario scenario){
-        //driver.close();
+        driver.close();
     }
 }
